@@ -1,7 +1,7 @@
 # This is Git's per-user configuration file.
 [user]
 	name = KaranbirSingh7
-	email = karanbirsingh1161@gmail.com
+	email = ksingh@localhost.com
 [color]
   branch = auto
   diff = auto
