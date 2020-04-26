@@ -1,0 +1,18 @@
+{
+    "editor.formatOnSave": true,
+    "prettier.singleQuote": true,
+    "workbench.colorTheme": "Monokai",
+    "window.zoomLevel": 0,
+    "editor.fontSize": 16,
+    "editor.fontFamily": "'Operator Mono', Menlo, Monaco, 'Courier New', monospace",
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "remote.SSH.configFile": "/Users/karanbirsingh/Desktop/ssh_config_vscode",
+    "workbench.startupEditor": "newUntitledFile",
+    "python.formatting.provider": "autopep8",
+    "go.formatTool": "goimports",
+    "go.useLanguageServer": true,
+    "extensions.ignoreRecommendations": false,
+    "terminal.integrated.fontSize": 16,
+    "terminal.external.osxExec": "iTerm.app"
+}
