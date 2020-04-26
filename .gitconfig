@@ -2,6 +2,26 @@
 [user]
 	name = KaranbirSingh7
 	email = karanbirsingh1161@gmail.com
-# Please adapt and uncomment the following lines:
-#	name = Karanbir Singh
-#	email = karanbirsingh@Karanbirs-MacBook-Pro.local
+[color]
+  branch = auto
+  diff = auto
+  interactive = auto
+  status = auto
+[web]
+  browser = google-chrome
+[credential]
+  helper = osxkeychain
+[push]
+  default = simple
+[merge]
+  tool = kdiff3
+[difftool]
+  prompt = false
+[alias]
+  c = commit
+  ca = commit -a
+  cm = commit -m
+  cam = commit -am
+  d = diff
+  dc = diff --cached
+  l = log --graph --pretty=format:"%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset" --abbrev-commit
