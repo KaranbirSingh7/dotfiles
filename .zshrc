@@ -133,6 +133,21 @@ source /opt/homebrew/etc/bash_completion.d/aws_bash_completer
 
 ############ ALIASES
 alias tf=terraform
+alias kctx=kubectx
+alias kns=kubens
+alias now='--grace-period=0 --now'
+
+### functions
+func cheat() {
+    curl "https://cheat.sh/$1"
+}
+
+export PATH=$PATH:$(go env GOPATH)/bin
+export PATH=$PATH:/opt/homebrew/bin/
 
 # StarShip THEME
 eval "$(starship init zsh)"
+
+export PATH="/Users/karanbirsingh/.deta/bin:$PATH"
+
+[[ -e "/Users/karanbirsingh/lib/oci_autocomplete.sh" ]] && source "/Users/karanbirsingh/lib/oci_autocomplete.sh"
