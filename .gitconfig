@@ -1,0 +1,13 @@
+[init]
+    defaultBranch = main
+[include]
+    path = ~/.gitconfig_global # this file contain user.name and user.email part
+[push]
+    autoSetupRemote = true
+[filter "lfs"]
+    clean = git-lfs clean -- %f
+    smudge = git-lfs smudge -- %f
+    process = git-lfs filter-process
+    required = true
+[core]
+    excludesfile = /Users/karanbirsingh/.gitignore_global
