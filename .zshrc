@@ -136,6 +136,7 @@ alias tf=terraform
 alias kctx=kubectx
 alias kns=kubens
 alias now='--grace-period=0 --now'
+alias gtn='git tag $(svu next)'
 
 ### functions
 func cheat() {
@@ -151,3 +152,6 @@ eval "$(starship init zsh)"
 export PATH="/Users/karanbirsingh/.deta/bin:$PATH"
 
 [[ -e "/Users/karanbirsingh/lib/oci_autocomplete.sh" ]] && source "/Users/karanbirsingh/lib/oci_autocomplete.sh"
+
+
+export FUNCTIONS_CORE_TOOLS_TELEMETRY_OPTOUT=0export PATH="/opt/homebrew/opt/mysql-client/bin:$PATH"
